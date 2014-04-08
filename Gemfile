@@ -48,3 +48,5 @@ end
 
 gem 'refinerycms', github: 'refinery/refinerycms', branch: 'master'
 gem 'refinerycms-i18n', github: 'refinery/refinerycms-i18n', branch: 'master'
+
+gem "twitter-bootstrap-rails"

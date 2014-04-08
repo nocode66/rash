@@ -45,4 +45,5 @@ Refinery::Core.configure do |config|
 
   # Specify a different backend path than the default of /refinery.
   # config.backend_route = "refinery"
+  config.menu_css = {:selected=>"active", :first=>"first", :last=>"last"}
 end
