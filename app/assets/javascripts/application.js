@@ -12,9 +12,9 @@
 //
 
 //= require jquery
+//= require jquery_ujs
 //= require jquery.maximage.min
 //= require jquery.cycle.all
-//= require jquery_ujs
 //= require jquery.easing.1.3
 //= require twitter/bootstrap
 //= require twitter/bootstrap/tooltip
@@ -23,5 +23,4 @@
 //= require jquery.isotope
 //= require jquery.appear
 //= require jquery.nicescroll.min
-//= require turbolinks
 //= require_tree .
