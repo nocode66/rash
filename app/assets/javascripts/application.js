@@ -10,8 +10,18 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
 //= require jquery
+//= require jquery.maximage.min
+//= require jquery.cycle.all
 //= require jquery_ujs
+//= require jquery.easing.1.3
 //= require twitter/bootstrap
+//= require twitter/bootstrap/tooltip
+//= require owl.carousel
+//= require magnific-popup
+//= require jquery.isotope
+//= require jquery.appear
+//= require jquery.nicescroll.min
 //= require turbolinks
 //= require_tree .
