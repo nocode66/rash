@@ -1,18 +1,45 @@
-
-
-
-<div class="navbar navbar-default navbar-fixed-top">
+<div id="topBar">
       <div class="container">
-        <div class="navbar-header">
-          <a href="../" class="navbar-brand">
-            <%=  Refinery::Core.site_name %>
-          </a>
-        </div>
-       
-          
-           <%= navigation_menu.to_html %>
+        <span class="hidden-xs">Welcome to Alkaline: you@domain.com or</span> 
+        +800-123-456
 
-      
+        
+
+       
+
+
+        <!-- 
+          LINKS - A MENU ALTERNATIVE
+          Do not use this for responsive - too many links.
+          If you want to use it, add class: hidden-xs
+          Or use it instead of language / my account
+        -->
+        <!-- 
+        <ul class="pull-right list-unstyled links">
+          <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
+          <li><a href="#"><i class="fa fa-user"></i> Register</a></li>
+        </ul>
+        -->
+
       </div>
     </div>
+<header id="header">
+      <div class="container">
+
+        <!-- LOGO -->
+        <a href="index.html" class="logo"><img alt="" src="/assets/logo.png" height="60" /></a>
+        <!-- LOGO -->
+
+       
+
+
+        <!-- TOP MENU -->
+        <div class="navbar-collapse nav-main-collapse collapse pull-left">
+            <%= navigation_menu.to_html %>
+         </div>
+        <!-- /TOP MENU -->
+
+      </div>
+</header>
+
 
