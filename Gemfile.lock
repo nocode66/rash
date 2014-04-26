@@ -224,6 +224,9 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    seed_dump (3.1.0)
+      activerecord
+      activesupport
     seo_meta (2.0.0.rc.1)
       railties (>= 3.0.0)
     sprockets (2.11.0)
@@ -272,6 +275,7 @@ DEPENDENCIES
   refinerycms-i18n!
   sass-rails (~> 4.0.2)
   sdoc
+  seed_dump
   sqlite3
   therubyracer
   twitter-bootstrap-rails!
