@@ -8,6 +8,15 @@ GIT
       routing-filter (>= 0.4.0.dev)
 
 GIT
+  remote: git://github.com/refinery/refinerycms-settings.git
+  revision: a99654ee7dd48ed4c7cde8d438e8be1338a1cb63
+  branch: master
+  specs:
+    refinerycms-settings (3.0.0.dev)
+      friendly_id (~> 5.0.1)
+      refinerycms-core (~> 3.0.0.dev)
+
+GIT
   remote: git://github.com/refinery/refinerycms.git
   revision: 5d2de24afe0eb9aee819576658f6d5831bdc7938
   branch: master
@@ -276,6 +285,7 @@ DEPENDENCIES
   rails (= 4.0.4)
   refinerycms!
   refinerycms-i18n!
+  refinerycms-settings!
   sass-rails (~> 4.0.2)
   sdoc
   seed_dump

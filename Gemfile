@@ -53,6 +53,7 @@ end
 
 gem 'refinerycms', github: 'refinery/refinerycms', branch: 'master'
 gem 'refinerycms-i18n', github: 'refinery/refinerycms-i18n', branch: 'master'
+gem 'refinerycms-settings', github: 'refinery/refinerycms-settings', branch: 'master'
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'owlcarousel-rails'
