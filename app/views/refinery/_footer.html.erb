@@ -5,7 +5,7 @@
       <ul>
         <li><a href="contact.html">CONTACT</a></li>
         <li class="sepy">&bull;</li>
-        <li><a href="#" data-toggle="modal" data-target="#socialInlineModal">FOLLOW US</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#socialInlineModal"><%= t('follow.title').upcase %></a></li>
       </ul>
       <!-- /right menu -->
 
@@ -24,12 +24,12 @@
 
           <div class="modal-header"><!-- modal header -->
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel"><i class="fa fa-hand-o-down"></i> Follow Us</h4>
+            <h4 class="modal-title" id="myModalLabel"><i class="fa fa-hand-o-down"></i> <%= t('follow.title') %></h4>
           </div><!-- /modal header -->
 
           <!-- modal body -->
           <div class="modal-body">
-            <p>Follow Us online, join our conversations, engage with our teams around the world!</p>
+            <p><%= t('follow.body') %></p>
             <div class="text-center">
               <a href="https://ro-ro.facebook.com/RockThisHairbyRash" class="socialbtn facebook"><i class="fa fa-facebook"></i>Facebook</a>
               <a href="https://twitter.com/hairvasile" class="socialbtn twitter"><i class="fa fa-twitter"></i>Twitter</a>

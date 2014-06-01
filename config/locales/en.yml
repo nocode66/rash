@@ -20,4 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome: "Welcome to ROCK this HAIR: contact@rockthishair.ro or +4(0)748.488.123"
+  follow:
+    title: "Follow us"
+    body: "Follow us, join the conversation, make an appointement!"

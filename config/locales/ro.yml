@@ -19,5 +19,8 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+ro:
+  welcome: "Bine ai venit pe ROCK this HAIR: contact@rockthishair.ro sau +4(0)748.488.123"
+  follow:
+    title: "Urmareste-ne"
+    body: "Urmareste-ne, intra in conversatie, fa o programare!"
